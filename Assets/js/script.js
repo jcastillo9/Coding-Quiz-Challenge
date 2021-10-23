@@ -139,7 +139,7 @@ function submitHighscore() {
         highscores.push(newScore);
         localStorage.setItem("highscores", JSON.stringify(highscores)) || [];
 
-        location.href = "highScore.html";
+        location.href = "highscore.html";
     }
 }
 submitButton.addEventListener("click", submitHighscore);
