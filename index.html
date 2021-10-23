@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <header>
+        <a id="highscore" href="./highscore.html">View Highscores</a>
+        <a id="time">Time: 0 </a> 
+        </header>
+       <main>
+           <section id="home" class="visible">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try and answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your your score time by ten seconds!</p>
+                <button id="start-button" class="start-button">Start Quiz</button>
+           </section>
+            <section id="quiz-section" class="hidden">
+                <article id="question-section">
+                    <h2 id="question-title"></h2>
+                </article>
+                <article id="selection">
+                    <article id="multiple-choice"></article>
+                    <article id="answer"></article>
+                </article>
+            </section>
+            <section id="score-section" class="hidden">
+                <article id="high-score">
+                    <h2>Quiz Completed!</h2>
+                    <h3>Your final score is <span id="final-score"></span></h3>
+                    <label for="initials-area">Enter initials:</label>
+                    <input type="text" name="initials-area" maxlength="2" id="initials">
+                    <button id="submit-button"type="submit">Submit</button>
+                </article>
+            </section>
+        </main>
+        <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
