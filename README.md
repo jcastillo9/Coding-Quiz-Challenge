@@ -13,5 +13,5 @@ Once the test is completed, you will be able to input your initials and save you
 Run using the github URL: https://jcastillo9.github.io/Coding-Quiz-Challenge/
 
 # Screenshot
-<img src="./Assets/images/homepage.png"/>
-<img src="./Assets/images/questionpage.png"/>
+<img src="assets/images/homepage.png"/>
+<img src="assets/images/questionpage.png"/>
