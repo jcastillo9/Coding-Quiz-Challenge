@@ -1,0 +1,81 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    align-items: center;
+}
+
+#highscore {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+#time {
+    float:right;
+}
+
+section{
+    padding: 50px 25%; 
+    margin: auto;
+}
+
+#home {
+    padding: 50px;
+    display: B;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+p{
+    padding: 0 25%;
+    text-align: center;
+}
+
+#start-button{
+    display: block;
+    margin: 0 auto;
+}
+
+#multiple-choice {
+    margin: auto;
+}
+
+.choice {
+    display: block;
+    text-align: center;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 8px;
+    margin: 3px;
+}
+
+#highscore:hover {
+    color: purple;
+}
+
+#highscore-page {
+    padding: 78px 25%;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(237, 206, 250);
+    margin: 3px;
+}
