@@ -143,4 +143,4 @@ function submitHighscore() {
     }
 }
 submitButton.addEventListener("click", submitHighscore);
-startButton.addEventListener("click", startQuiz);
+startButton.addEventListener("click", beginQuiz);
