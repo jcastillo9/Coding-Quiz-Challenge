@@ -3,11 +3,24 @@
 # User Story
 As a coding boot camp student, I want to take a timed quiz on JavaScript fundamentals that stores high scores, so that I can gauge my progress compared to my peers
 
-When you first arrive to the website, you will have to click the 'Start Quiz' button. You will see the first question come up. Once you answer this question, you will see a notification come up under the question that will tell you whether your answer choice was correct or incorrect. If you answer is incorrect, 10 second will be deducted from your time.
+# Acceptance Criteria
 
-Next, you will move onto the next question. You cannot move forward without answering the current question. The quiz will end once all questions have been answered or if your time hits 0. 
+* GIVEN I am taking a code quiz
+* WHEN I click the start button
+* THEN a timer starts and I am presented with a question
+* WHEN I answer a question
+* THEN I am presented with another question
+* WHEN I answer a question incorrectly
+* THEN time is subtracted from the clock
+* WHEN all questions are answered or the timer reaches 0
+* THEN the game is over
+* WHEN the game is over
+* THEN I can save my initials and my score
 
-Once the test is completed, you will be able to input your initials and save your score. You can keep track of your scores by clicking on 'View Highscores' in the top left corner of the homepage and you can choose to clear the scores once you make it to the scores page. 
+# Technologies Used
+* HTML
+* Javascript
+* Local Storage
 
 # Installation
 Run using the github URL: https://jcastillo9.github.io/Coding-Quiz-Challenge/
