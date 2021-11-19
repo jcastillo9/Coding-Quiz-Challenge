@@ -28,3 +28,11 @@ Run using the github URL: https://jcastillo9.github.io/Coding-Quiz-Challenge/
 # Screenshot
 <img src="Assets/images/homepage.png"/>
 <img src="Assets/images/questionpage.png"/>
+
+## Credits
+ 
+Lead Developer - Janette Castillo (janette.castillo91@yahoo.com)
+
+# License
+ 
+The MIT License (MIT)
