@@ -23,7 +23,7 @@ As a coding boot camp student, I want to take a timed quiz on JavaScript fundame
 * Local Storage
 
 # Installation
-Run using the github URL: https://jcastillo9.github.io/Coding-Quiz-Challenge/
+Run using the github URL: https://jcastillo9.github.io/coding-quiz-challenge/
 
 # Screenshot
 <img src="Assets/images/homepage.png"/>
